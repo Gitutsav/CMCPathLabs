@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:orientation="horizontal"
+android:gravity="center_horizontal"
+android:elevation="10dp"
+android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="0dip"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:background="#ffffff"
+    android:layout_weight="25"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/red_cross"/>
+</LinearLayout>
+<LinearLayout
+    android:layout_width="0dip"
+    android:layout_weight="85"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/mybordertabbed"
+        android:backgroundTint="#ffffff"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="85dp">
+
+        <TextView
+            android:text="Atif Aslam"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:id="@+id/textViewName"
+            android:layout_width="match_parent"
+            android:textSize="15dp"
+            android:layout_marginLeft="8dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Rock"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:id="@+id/textViewGenre"
+            android:textSize="10dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="17dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+        <TextView
+            android:id="@+id/timestamp"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:textSize="10dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical"
+            android:text="Date"
+            />
+
+        <LinearLayout
+            android:layout_width="290dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="47dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/send_msg"
+                android:layout_width="50dip"
+                android:visibility="invisible"
+                android:layout_height="21dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/imagbutton"
+                android:text="View"
+                android:textAlignment="center"
+                android:textColor="#0099ff" />
+
+            <TextView
+                android:id="@+id/delete"
+                android:layout_width="50dp"
+                android:layout_height="21dp"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/imagbuttondelete"
+                android:text="Delete"
+                android:textAlignment="center"
+                android:textColor="#ff0000" />
+
+            <Spinner
+                android:id="@+id/viewas"
+                android:layout_width="19dp"
+                android:layout_height="19dp"
+                android:layout_marginLeft="127dp"
+                android:background="@drawable/ic_list"
+                android:text="View as.."
+                android:textColor="#0099ff" />
+
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>
+
+</LinearLayout>

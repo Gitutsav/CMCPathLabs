@@ -1,0 +1,4 @@
+#Thu Jan 03 09:40:15 IST 2019
+base.0=C\:\\Users\\Utsav Gupta\\Downloads\\firebase database crud\\CMC\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\8
+path.0=classes.dex
+renamed.0=classes.dex

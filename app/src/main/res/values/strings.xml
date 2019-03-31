@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CMC</string>
+    <array name="genres">
+        <item name="rock">Rock</item>
+        <item name="pop">Pop</item>
+        <item name="jazz">Jazz</item>
+        <item name="sufi">Sufi</item>
+        <item name="folk">Folk</item>
+    </array>
+    <string name="title_activity_attendant_tab">attendant_tab</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>
